@@ -4,9 +4,16 @@
         <title>Modern Tragedy Blog</title>
         <link>https://hhow09.github.io/blog</link>
         <description>Modern Tragedy Blog</description>
-        <lastBuildDate>Thu, 30 May 2019 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 09 Apr 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Infra Engineer 雜感]]></title>
+            <link>https://hhow09.github.io/blog/infra</link>
+            <guid>infra</guid>
+            <pubDate>Sat, 09 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[以菜鳥加入Infra Team快一年的雜感。]]></description>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://hhow09.github.io/blog/welcome</link>
@@ -20,13 +27,6 @@
             <guid>hello-world</guid>
             <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to this blog. This blog is created with Docusaurus 2 alpha.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Hola]]></title>
-            <link>https://hhow09.github.io/blog/hola</link>
-            <guid>hola</guid>
-            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
         </item>
     </channel>
 </rss>

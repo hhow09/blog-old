@@ -1,6 +1,7 @@
 # Index
 
 ## Learning Resource
+- [awesome-database-learning](https://github.com/pingcap/awesome-database-learning)
 - [CMU 15445: Intro to Database Systems](https://15445.courses.cs.cmu.edu/fall2021/)
 - [Database Systems Research Group at U Tübingen - DB2](https://youtube.com/playlist?list=PL1XF9qjV8kH0ghGRGo3_f-FWqWvAbv1dh)
 

@@ -85,3 +85,24 @@ class Solution:
 ### 同類
 - [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)
 - [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/)
+
+## 5. Tree 變形
+[538. Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)
+
+題目本身為 reversed in-order traversal 的 prefix sum
+```python
+class Solution:
+    def convertBST(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
+        self.accu = 0
+        def reverseInorder(node):
+            if not node:
+                return
+            reverseInorder(node.right)
+            val = node.val
+            node.val += self.accu
+            self.accu += val
+            reverseInorder(node.left)
+        
+        reverseInorder(root)
+        return root
+```

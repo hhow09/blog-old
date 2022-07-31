@@ -29,6 +29,10 @@ a B-tree of order `m` is a tree which satisfies the following properties:
 - B-Tree grows and shrinks from the root which is unlike `Binary Search Tree`. `Binary Search Trees` grow downward and also shrink from downward.
 - Like other balanced `Binary Search Trees`, time complexity to search, insert and delete is O(log n).
 
+### B-Tree Visualization
+https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html
+
+
 ## B-tree Insertion
 
 - Insertion of a node in B-Tree happens **only at Leaf Node**.
@@ -101,9 +105,7 @@ a B-tree of order `m` is a tree which satisfies the following properties:
 - size saving: we don't have to store all the key.
 - Range query: store in to near segments helps range query.
 
-## B-Tree v.s. LSM-Trees
 
-//TODO
 
 ## Reference
 

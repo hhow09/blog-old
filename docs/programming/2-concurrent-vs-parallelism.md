@@ -58,7 +58,7 @@
 #### Applications
 
 - [goroutine](https://golang.org/ref/mem) in golang.
-- JavaScript has a [concurrency model](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop) based on an [event loop](/programming/15-js-event-loop.md).
+- JavaScript has a [concurrency model](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop) based on an event loop.
 - `Promise` in Javascript is `asynchronous programming` but not `Concurrency`.
 
 ### 2. Parallel Execution
